@@ -41,7 +41,7 @@ public class CheckStringProject {
 		
 				
 		try {
-			String srcStr = ":home:admin:окко номер_один азс.xls";
+			String srcStr = ":home:admin:РѕРєРєРѕ РЅРѕРјРµСЂ_РѕРґРёРЅ Р°Р·СЃ.xls";
 			String tgtStrEnc = java.net.URLEncoder.encode(srcStr.replace(' ', '*'), "UTF-8").replace('*', ' ');
 			String tgtStrDec = java.net.URLDecoder.decode(tgtStrEnc, "UTF-8");
 		    System.out.println("Encoded: " + tgtStrEnc);
