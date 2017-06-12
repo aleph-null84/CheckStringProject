@@ -1,7 +1,5 @@
 package org;
 
-///////
-
 import java.io.UnsupportedEncodingException;
 
 public class CheckStringProject {
